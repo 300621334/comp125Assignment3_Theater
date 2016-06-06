@@ -69,6 +69,7 @@ namespace TheaterDemo
 
             eglinton.PrintShows("Morgan Freeman");
 
+Console.WriteLine("*********\n*********\n*********");
             eglinton.PrintShows(new Time(14, 30, 0));
 
         }
