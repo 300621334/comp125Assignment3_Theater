@@ -14,7 +14,7 @@ namespace TheaterDemo
 
             Movie terminator = new Movie("Judgement Day", 105);
             terminator.AddActor("Arnold Schwarzenegger");
-            terminator.SetGenre(MovieGenre.Horror | MovieGenre.Action);
+            terminator.SetGenre(MovieGenre.Horror | MovieGenre.Action); //if put 7 instead of | then it displays "Unrated"!!!!
             terminator.AddActor("Linda Hamilton");
             Show s1 = new Show(terminator, MovieDay.Mon, 5.95, new Time(11, 35, 0));
 
